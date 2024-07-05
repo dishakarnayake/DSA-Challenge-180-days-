@@ -3,7 +3,7 @@
 
 # Brute force method
 class Solution:
-    def removeElement(self, nums,  int) :
+    def removeElement(self, nums,  val) :
         i = 0
         while i < len(nums):
             if nums[i] == val:
@@ -20,7 +20,7 @@ class Solution:
  
  
  
- # Optimal approach using two pointer
+# Optimal approach using two pointer
 
 def removeElement(self, nums, val):
     left, right = 0, len(nums) - 1
