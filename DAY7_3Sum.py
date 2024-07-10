@@ -28,7 +28,6 @@ class solution:
                 left, right = i + 1, len(nums) - 1
                 while left < right:
                     total = nums[i] + nums[left] + nums[right]
-                    if total < 0:
                         left += 1
                     elif total > 0:
                         right -= 1
