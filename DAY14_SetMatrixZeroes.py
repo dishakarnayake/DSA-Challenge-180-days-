@@ -16,6 +16,7 @@ class Solution(object):
                 if i in row_set or j in col_set:
                     matrix[i][j] = 0
         return matrix
+
 obj = Solution()
 matrix = [[0,1,2,0],[3,4,5,2],[1,3,1,5]]
 print(obj.setZeroes(matrix))
@@ -60,7 +61,8 @@ class solution(object):
             for i in range(m):
                 matrix[i][0] = 0
 
-        return matrix
+        return matrix 
+
     
 obj1 = solution()
 matrix = [[0,1,2,0],[3,4,5,2],[1,3,1,5]]
