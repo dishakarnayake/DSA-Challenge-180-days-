@@ -39,4 +39,4 @@ class MapSum:
             if char not in node.children:
                 return 0
             node = node.children[char]
-        return node.value
+        return node.value 
